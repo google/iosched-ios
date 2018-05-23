@@ -1,0 +1,98 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+def firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Database' # TODO: remove Database dependency
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Functions'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/RemoteConfig'
+  pod 'Crashlytics'
+end
+
+def auth
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
+end
+
+def google_apiclient
+  pod 'GoogleAPIClientForREST'
+end
+
+def alamofire
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+end
+
+def maps
+  pod 'GoogleMaps'
+end
+
+def lottie
+  pod 'lottie-ios'
+end
+
+def dotzu
+  pod 'Dotzu', :configurations => ['Debug']
+end
+
+def test_pods
+  pod 'Quick'
+  pod 'Nimble'
+end
+
+target 'Domain' do
+  use_frameworks!
+
+  # Pods for Domain
+
+  target 'DomainTests' do
+    inherit! :search_paths
+    # Pods for testing
+    test_pods
+  end
+
+end
+
+target 'Platform' do
+  use_frameworks!
+
+  # Pods for Platform
+  firebase
+  auth
+  google_apiclient
+  alamofire
+
+  target 'IOsched' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    inherit! :search_paths
+
+    # Pods for IOsched
+    pod 'MaterialComponents'
+    pod 'DTCoreText'
+    pod 'SwiftLint'
+    pod 'YouTubePlayer'
+    alamofire
+    maps
+    lottie
+
+  end
+
+  target 'IOschedTestApp' do
+    inherit! :search_paths
+
+    target 'IOschedTestAppTests' do
+      inherit! :search_paths
+
+      test_pods
+    end
+  end
+
+  target 'PlatformTests' do
+    inherit! :search_paths
+    # Pods for testing
+    test_pods
+  end
+
+end

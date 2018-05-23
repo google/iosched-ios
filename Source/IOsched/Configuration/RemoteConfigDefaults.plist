@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>feed_default_first_priority_key</key>
+	<false/>
+	<key>feed_default_first_category_key</key>
+	<string>Welcome</string>
+	<key>feed_default_first_color_key</key>
+	<string>#b2ebf2</string>
+	<key>feed_default_first_timestamp</key>
+	<string>1494424900000</string>
+	<key>feed_default_first_imageurl</key>
+	<string>https://lh3.googleusercontent.com/7_QdtrIdKp0vunD_gw3umvo95j3bCBB3Nz8jUWpEOuIkjGPmiwM6MN2RZhc_rK8cmiq5jA4U-Bip13_XHol7VpjjEKdt31k</string>
+	<key>feed_default_first_message</key>
+	<string>&lt;![CDATA[Here you&apos;ll find cards with relevant info and tips about Google I/O before, throughout, and even after the conference. You can expect content related to the Agenda / Schedule, Travel, After Hours, as well as highlights from our social channels.]]&gt;</string>
+	<key>feed_default_first_title</key>
+	<string>Welcome to the I/O Feed</string>
+</dict>
+</plist>
