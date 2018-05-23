@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GOOGLE_MAPS_KEY</key>
+	<string>YOUR API KEY HERE</string>
+	<key>SCHEDULE_DATA_BUCKET_ID</key>
+	<string>io2017-festivus</string>
+</dict>
+</plist>

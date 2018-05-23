@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Google I/O 19</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.0.2</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.596109260910-n1vrfjs8d7105jh5j7qf42ph32sltjp0</string>
+				<string>com.googleusercontent.apps.596109260910-f5kc2mv8bhli14sruc3o8tbqdsoske3h</string>
+				<string>com.googleusercontent.apps.237695054204-5c83btrn1c3gk978t1l6g27mvfpcf0h6</string>
+				<string>com.googleusercontent.apps.237695054204-bqjo88acvuhsfcg0s7mfgs8i67e4r47m</string>
+				<string>com.googleusercontent.apps.237695054204-aqepbn0lo3kbqnk5q29tib0ol4gl1jro</string>
+				<string>com.googleusercontent.apps.755839215930-5g5lsf8dngohpq7d0tbjq2imdpuqapoj</string>
+				<string>com.googleusercontent.apps.755839215930-buqkao2t65av6fcabt33bg981gcp1qjt</string>
+				<string>com.googleusercontent.apps.755839215930-09ln8hk88ta0dnsevmpp0jm74tkc3ked</string>
+				<string>com.googleusercontent.apps.755839215930-hd6mjgc934bmkoe8dvavr2ivsqjvcvjj</string>
+				<string>com.googleusercontent.apps.516337410102-heoh7cmip23mu1t0h1ijh4s8epplg26t</string>
+				<string>com.googleusercontent.apps.447780894619-c9ovo169ue58khaq7pmj9pvvkbmjt6l2</string>
+				<string>com.googleusercontent.apps.627211894852-bv06bog84e2no56sapmpqd3ddujbu6cs</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>37</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<true/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera access is needed to display augmented reality mode at I/O 2019.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We use your location to help you find your way around the venue.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To save photos taken of the augmented reality landmarks, the app needs access to your photo library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To save photos taken of the augmented reality landmarks, the app needs access to your photo library.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ProductSans-Regular.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>

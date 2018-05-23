@@ -1,0 +1,66 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+use_frameworks!
+
+def firebase
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Functions'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/RemoteConfig'
+  pod 'Crashlytics'
+end
+
+def auth
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
+end
+
+def google_apiclient
+  pod 'GoogleAPIClientForREST'
+end
+
+def maps
+  pod 'GoogleMaps'
+end
+
+def lottie
+  pod 'lottie-ios'
+end
+
+def dotzu
+  pod 'Dotzu', :configurations => ['Debug']
+end
+
+def test_pods
+  pod 'Quick'
+  pod 'Nimble'
+end
+
+target 'IOsched' do
+
+  # Pods for IOsched
+  firebase
+  auth
+  google_apiclient
+  maps
+  lottie
+
+  pod 'MaterialComponents'
+  pod 'SwiftLint'
+  pod 'YouTubePlayer', :git => 'https://github.com/weakfl/Swift-YouTube-Player'
+  pod 'AlamofireImage'
+  pod 'GoogleMobileVision'
+  pod 'GoogleAPIClientForREST/Calendar'
+
+  target 'IOschedTests' do
+    inherit! :search_paths
+
+    test_pods
+  end
+
+  target 'IOschedUITests' do
+    inherit! :search_paths
+  end
+
+end
