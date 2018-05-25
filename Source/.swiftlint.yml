@@ -60,7 +60,7 @@ reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, em
 file_header:
   required_pattern: |
                    \/\/
-                   \/\/  Copyright \(c\) 201[6-7] Google Inc.
+                   \/\/  Copyright \(c\) 201[6-8] Google Inc.
                    \/\/
                    \/\/  Licensed under the Apache License, Version 2.0 \(the "License"\);
                    \/\/  you may not use this file except in compliance with the License.

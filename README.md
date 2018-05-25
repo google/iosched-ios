@@ -8,10 +8,21 @@ This project is the iOS app for the conference.
 
 ## Building
 
+You'll need a Firebase project to run IOsched. Copy your project's
+`GoogleService-Info.plist` file into the `Source/IOsched/Configuration`
+directory. For instructions on how to create an iOS app in your Firebase
+project, see the "Add Firebase to your app" section of
+[this document](https://firebase.google.com/docs/ios/setup).
+
 CocoaPods 1.4.0 and Xcode 9.2. are required.
 
 Run `pod install` in the `Source` directory, open `IOsched.xcworkspace`, and
 build and run the IOsched target.
+
+Note that the backend is dependent on Cloud Functions and Firestore, so
+when running the app you may not see any data if your project's Firestore
+data store is empty. Similarly, backend functions like reservations
+and stars won't function.
 
 ## License
 
