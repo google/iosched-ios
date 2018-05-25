@@ -14,7 +14,7 @@ directory. For instructions on how to create an iOS app in your Firebase
 project, see the "Add Firebase to your app" section of
 [this document](https://firebase.google.com/docs/ios/setup).
 
-CocoaPods 1.4.0 and Xcode 9.2. are required.
+CocoaPods 1.4.0 and Xcode 9.2 or higher are required.
 
 Run `pod install` in the `Source` directory, open `IOsched.xcworkspace`, and
 build and run the IOsched target.
