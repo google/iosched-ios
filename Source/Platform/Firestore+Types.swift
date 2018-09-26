@@ -70,7 +70,7 @@ public extension Firestore {
   /// Sets the last visited timestamp for the provided user.
   public func setLastVisited(_ date: Date, for user: UserInfo) {
     let document = userDocument(for: user)
-    document.setData(["lastUsage": FieldValue.serverTimestamp()], options: SetOptions.merge())
+    document.setData(["lastUsage": FieldValue.serverTimestamp()], merge: true)
   }
 
   /// Returns the reservation queue document for the provided user.

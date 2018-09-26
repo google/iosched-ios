@@ -66,11 +66,10 @@ class RemoteBookmarkDataSource {
 
     let userEvent = firestore.userEvent(for: user, withSessionID: sessionId)
 
-    let setOptions = SetOptions.merge()
     userEvent.setData([
       "eventId": sessionId,
       "isStarred": bookmarked
-    ], options: setOptions) { error in
+    ], merge: true) { error in
       if let error = error {
         print("Error writing bookmark to \(self.firestore): \(error)")
       }
