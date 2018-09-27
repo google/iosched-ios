@@ -79,7 +79,7 @@ public final class FeedbackService {
     firebaseFunctions.httpsCallable("sendFeedback").call(feedback) { (_, error) in
       if let error = error as NSError? {
         if error.domain == FunctionsErrorDomain {
-            let code = FunctionsErrorCode(rawValue: error.code) ?? .unknown
+          let code = FunctionsErrorCode(rawValue: error.code) ?? .unknown
           let message = error.localizedDescription
           let details = error.userInfo[FunctionsErrorDetailsKey] ?? "(nil)"
           print("Error Code=\(code); message=\(message):\(details); error: \(error)")

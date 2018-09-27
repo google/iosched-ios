@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Firebase setup
     FirebaseApp.configure()
     // Uncomment this line to enable debug logging from Firebase.
-     FirebaseConfiguration.shared.setLoggerLevel(.debug)
+    // FirebaseConfiguration.shared.setLoggerLevel(.debug)
 
     var launchedFromShortcut = false
 
